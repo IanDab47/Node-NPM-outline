@@ -4,14 +4,16 @@
 1. Create a new directory and open with VSC
   `mkdir <directory-name>`
   `code <directory-name>`
-2. Create any necessary files for the project
+2. Create a 'package.json' file by initializing npm
+  `npm init`
+3. Create any necessary files for the project
   `touch <fileName1> <fileName2>...`
-3. Install any necessary npm programs for the project
+4. Install any npm programs for the project
   `npm install <programName> | npm i <programName> | 'Follow program instructions for installation'`
-4. Create a '.gitignore' file with the text 'node_modules' listed inside
-  `echo "node_modules >> .gitignore`
-5. Save all files
-6. Use git to initialize, add, commit, and push your project to Github
+5. Create a '.gitignore' file with the text 'node_modules' listed inside
+  `echo node_modules >> .gitignore`
+6. Save all files
+7. Use git to initialize, add, commit, and push your project to Github
   `git init`
   `git add .`
   `git commit -m "Created Node Project"`
